@@ -86,7 +86,7 @@ export function useLogout(){
         }
     }
 
-     return {logout, isLoading}
+    return {logout, isLoading}
 }
 export function useRegister(){
     const [isLoading, setIsLoading] = useState(false);
