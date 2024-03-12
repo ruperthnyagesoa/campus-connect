@@ -4,13 +4,13 @@ import {getAuth} from "firebase/auth";
 import {getStorage} from "firebase/storage";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCUAUi6ux8ONRBuFZjRehBJPaW8EaWamXI",
-    authDomain: "campus-connect-599b4.firebaseapp.com",
-    projectId: "campus-connect-599b4",
-    storageBucket: "campus-connect-599b4.appspot.com",
-    messagingSenderId: "771584459768",
-    appId: "1:771584459768:web:305fea358034e0ad540c0d",
-    measurementId: "G-D5KDXPTNR5"
+    apiKey: "AIzaSyA6bV2YCIHuYW5EwRJYeumYXLalu-fB8TI",
+    authDomain: "campus2-bc36e.firebaseapp.com",
+    projectId: "campus2-bc36e",
+    storageBucket: "campus2-bc36e.appspot.com",
+    messagingSenderId: "862976055817",
+    appId: "1:862976055817:web:72d10a508223c3e3a676d8",
+    measurementId: "G-8XKP86QRRH"
 };
 export const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
